@@ -1,0 +1,66 @@
+.maincontent {
+  display: flex;
+  height: 50vh;
+  margin: 5rem 0;
+  padding: 1rem;
+}
+
+.maincontent > div {
+  flex: 1;
+}
+.maincontent .left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.maincontent .left-container h5 {
+  font-size: 25px;
+  color: #56ffbd;
+  font-weight: 600;
+}
+
+.maincontent .left-container h1 {
+  font-size: 82px;
+  line-height: 1;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.maincontent .left-container p {
+  color: #ebebeb;
+  font-family: "roboto";
+  margin-bottom: 0.9rem;
+}
+
+.maincontent .left-container .search {
+  display: flex;
+  gap: 30px;
+}
+
+.maincontent .left-container .search input {
+  flex: 2;
+  font-size: 16px;
+  min-height: 42px;
+  padding: 0 10px;
+}
+.maincontent .left-container .search input:focus {
+  outline: 3px solid #012579;
+}
+.maincontent .left-container .search input::placeholder {
+  color: #dcdbdb;
+}
+
+.maincontent .left-container .search button {
+  flex: 0.3;
+  background-color: #497dff;
+  padding: 8px 20px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.maincontent .left-container .search button:hover {
+  background-color: #56ffbd;
+  color: rgb(49, 49, 49);
+}

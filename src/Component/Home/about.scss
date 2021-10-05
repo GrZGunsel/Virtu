@@ -1,0 +1,58 @@
+.About {
+  display: flex;
+  justify-content: center;
+  height: 516px;
+  width: 100vw;
+  background-color: white;
+  padding: 6rem 1rem;
+}
+
+.About .about-detail {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.About .about-detail > div {
+  flex: 1;
+}
+
+.About .about-detail .right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.About .about-detail .right-container h5 {
+  margin-bottom: 20px;
+  color: #497dff;
+  font-size: 25px;
+}
+
+.About .about-detail .right-container h3 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.About .about-detail .right-container p {
+  font-size: 16px;
+  color: #9b9b9b;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.About .about-detail .right-container .about-button {
+  display: flex;
+  gap: 20px;
+}
+
+.About .about-detail .right-container .about-button .readmore {
+  padding: 8px 20px;
+  font-size: 18px;
+  background-color: #497dff;
+  color: white;
+}
+
+.About .about-detail .right-container .about-button .readmore:hover {
+  background-color: #040356;
+}
