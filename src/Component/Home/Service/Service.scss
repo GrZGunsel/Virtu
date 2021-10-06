@@ -1,0 +1,107 @@
+.Service {
+  height: 80vh;
+  padding: 6rem 1rem;
+}
+
+.service-body {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: white;
+  gap: 30px;
+}
+
+.service-body > div {
+  flex: 1;
+}
+
+.service-body .left-container h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #56ffbd;
+  margin-bottom: 20px;
+}
+.service-body .left-container h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.service-body .left-container p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.service-body .left-container .service-tab ul {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+}
+
+.service-body .left-container .service-tab ul li {
+  display: flex;
+  column-gap: 20px;
+}
+
+.service-body .left-container .service-tab ul li svg {
+  height: 20px;
+  width: 21px;
+  border-radius: 50%;
+  background-color: #56ffbd;
+  color: black;
+  padding: 3px;
+}
+.service-body .left-container .service-tab ul li svg:hover {
+  background-color: #ffffff;
+}
+
+.service-body .left-container .service-tab ul li p {
+  margin-bottom: 0;
+}
+.service-body .right-container .services {
+  display: flex;
+  gap: 32px;
+}
+.service-body .right-container .services > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.service-body .right-container .services > div:nth-child(2) {
+  margin-top: 40px;
+}
+.service-body .right-container .serviceCards {
+  height: 100%;
+  width: 100%;
+
+  color: black;
+}
+.service-body .right-container .ServiceCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color: #56ffbd;
+  width: 100%;
+  padding: 40px;
+}
+.service-body .right-container .active {
+  background-color: #497dff !important;
+  color: #ffffff;
+}
+.service-body .right-container .active {
+  background-color: #497dff !important;
+}
+.service-body .right-container .ServiceCard h1 {
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+
+.service-body .right-container .ServiceCard p {
+  font-size: 16px;
+}
+
+.service-body .right-container .ServiceCard:hover {
+  background-color: #40d6ff;
+  color: white;
+}

@@ -5,7 +5,12 @@ const About = () => {
     <div className="About">
       <div className="container">
         <div className="about-detail">
-          <div className="left-container"></div>
+          <div className="left-container">
+            <img
+              src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+              alt="Sad"
+            />
+          </div>
           <div className="right-container">
             <h5>Welcome to Virtu company</h5>
             <h3>The best tech company</h3>

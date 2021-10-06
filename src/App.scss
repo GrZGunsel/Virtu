@@ -12,10 +12,10 @@
 .App {
   display: flex;
   flex-direction: column;
+
   justify-content: center;
   align-items: center;
   background-color: #040e56;
-  overflow-x: hidden;
 }
 
 .App .container {
@@ -27,7 +27,7 @@ button {
 }
 
 .content {
-  height: 100vh;
+  height: 80vh;
 }
 
 p {
