@@ -12,7 +12,6 @@
 .App {
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   align-items: center;
   background-color: #040e56;
@@ -21,15 +20,18 @@
 .App .container {
   width: 1140px;
 }
-
+.App > div:nth-child(odd) {
+  height: 95vh;
+}
+.App > div:nth-child(even) {
+  height: 70vh;
+  width: 100%;
+  background-color: white;
+}
 button {
   cursor: pointer;
 }
-
-.content {
-  height: 80vh;
-}
-
 p {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }

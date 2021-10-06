@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "../Navbar/Navbar";
 import "./Home.scss";
 const Home = () => {
   return (
     <div className="container">
+      <Navbar />
       <div className="content">
         <div className="maincontent">
           <div className="left-container">

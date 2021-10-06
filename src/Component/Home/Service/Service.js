@@ -21,11 +21,11 @@ const Service = () => {
             <div className="service-tab">
               <ul>
                 <ServiceLists title="Customer Funnel Booster" />
-                <ServiceLists title="Customer Funnel Booster" />
-                <ServiceLists title="Customer Funnel Booster" />
-                <ServiceLists title="Customer Funnel Booster" />
-                <ServiceLists title="Customer Funnel Booster" />
-                <ServiceLists title="Customer Funnel Booster" />
+                <ServiceLists title="Vulputate massa" />
+                <ServiceLists title="Remarketing Blueprint" />
+                <ServiceLists title="Phasellus odio dolor" />
+                <ServiceLists title="Lead Nurturing Scheme" />
+                <ServiceLists title="Aliquam sed finibus" />
               </ul>
             </div>
           </div>
@@ -44,11 +44,11 @@ const Service = () => {
               </div>
               <div className="serviceCards">
                 <ServiceCard
-                  title="Data Driven"
+                  title="Market Analys"
                   description="We bring the right people together to challenge established thinking and drive transform in 2020"
                 />
                 <ServiceCard
-                  title="Tech Support "
+                  title="Data Secure "
                   description="We bring the right people together to challenge established thinking and drive transform in 2020"
                 />
               </div>

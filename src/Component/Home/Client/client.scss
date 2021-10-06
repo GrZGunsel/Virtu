@@ -1,0 +1,55 @@
+.client {
+  height: 100% !important;
+}
+
+.client-body {
+  height: 100%;
+  padding: 0rem 1rem;
+  display: flex;
+  gap: 30px;
+}
+.client-body > div:nth-child(1) {
+  flex: 1.4;
+}
+.client-body > div:nth-child(2) {
+  flex: 2;
+}
+
+.client-body > div {
+  height: 100%;
+
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #040e56;
+  margin-top: -50px;
+  padding: 32px;
+  color: white;
+}
+
+.client-body .left-container h3 {
+  color: #56ffbd;
+  font-size: 25px;
+}
+
+.client-body .left-container h1 {
+  font-size: 56px;
+}
+.client-body .left-container p {
+  color: #ebebebeb;
+}
+
+.client-body .right-container .btn {
+  color: white;
+  width: 20%;
+  padding: 10px 0;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #497dff;
+}
+
+.client-body .right-container .btn:hover {
+  color: black;
+  background-color: #56ffbd;
+}
