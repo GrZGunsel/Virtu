@@ -1,0 +1,58 @@
+.feeback {
+  display: flex;
+  justify-content: center;
+}
+
+.feeback .feeback-body {
+  display: flex;
+  gap: 20px;
+  padding: 6rem 1rem;
+  align-items: center;
+  height: 100%;
+}
+.feeback .feeback-body > div {
+  flex: 1;
+}
+
+.feeback-body .left-container {
+  color: white;
+  overflow: hidden;
+}
+
+.feeback-body .left-container .client-feeback {
+  width: 150px;
+}
+
+.feeback-body .left-container h3 {
+  color: #56ffbd;
+  margin-bottom: 20px;
+}
+
+.feeback-body .left-container .slider {
+  padding: 2rem;
+}
+
+.feeback-body .left-container .slider .client-feeback {
+  box-shadow: 20px 0px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+
+  width: 100%;
+}
+
+.feeback-body .left-container .slider .client-feeback > p {
+  margin: 30px 0;
+  line-height: 20px;
+}
+.feeback-body .left-container .slider .client-feeback .authorDetail {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.feeback-body .left-container .slider .client-feeback .authorDetail .avatar {
+  height: 70px;
+  width: 70px;
+}
+
+.client-feeback .authorDetail .description p:nth-child(1) {
+  color: #56ffbd;
+}

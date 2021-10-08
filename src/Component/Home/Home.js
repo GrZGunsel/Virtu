@@ -3,9 +3,9 @@ import Navbar from "../Navbar/Navbar";
 import "./Home.scss";
 const Home = () => {
   return (
-    <div className="container">
-      <Navbar />
-      <div className="content">
+    <div className="content">
+      <div className="container">
+        <Navbar />
         <div className="maincontent">
           <div className="left-container">
             <h5>Customised tech service</h5>

@@ -77,21 +77,25 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
   height: 250px;
   background-color: #56ffbd;
   width: 100%;
   padding: 40px;
 }
+.service-body .right-container .active h1 {
+  color: #ffffff;
+}
 .service-body .right-container .active {
   background-color: #497dff !important;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .service-body .right-container .active {
   background-color: #497dff !important;
 }
 .service-body .right-container .ServiceCard h1 {
   margin-bottom: 20px;
+
   font-size: 23px;
 }
 

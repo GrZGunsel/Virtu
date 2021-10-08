@@ -1,5 +1,15 @@
 import React from "react";
+import Slider from "react-slick";
+import Image from "./Image";
 import "./client.scss";
+var settings = {
+  infinite: true,
+  speed: 200,
+  slidesToShow: 4,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  slidesToScroll: 1,
+};
 const Client = () => {
   return (
     <div className="client">
@@ -14,6 +24,17 @@ const Client = () => {
             </p>
           </div>
           <div className="right-container">
+            <div className="slider">
+              <Slider {...settings}>
+                <Image />
+                <Image />
+                <Image />
+                <Image />
+                <Image />
+                <Image />
+                <Image />
+              </Slider>
+            </div>
             <p>
               Pellentesque ullamcorper ipsum eget ultricies ornare. Morbi
               lacinia sed diam vel varius. Phasellus non erat in elit mattis

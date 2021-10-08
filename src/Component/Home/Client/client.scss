@@ -1,5 +1,5 @@
 .client {
-  height: 100% !important;
+  height: 40vh !important;
 }
 
 .client-body {
@@ -12,6 +12,7 @@
   flex: 1.4;
 }
 .client-body > div:nth-child(2) {
+  overflow: hidden;
   flex: 2;
 }
 
@@ -30,12 +31,8 @@
 
 .client-body .left-container h3 {
   color: #56ffbd;
-  font-size: 25px;
 }
 
-.client-body .left-container h1 {
-  font-size: 56px;
-}
 .client-body .left-container p {
   color: #ebebebeb;
 }
@@ -52,4 +49,12 @@
 .client-body .right-container .btn:hover {
   color: black;
   background-color: #56ffbd;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider .slick-arrow {
+  display: none !important;
 }
