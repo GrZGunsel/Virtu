@@ -1,0 +1,45 @@
+.footer {
+  height: 40vh !important;
+}
+
+.footer .container {
+  display: flex;
+  padding: 0rem 1rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.upperFooter {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+
+.upperFooter img {
+  margin-bottom: 20px;
+}
+.upperFooter > div {
+  flex: 1;
+}
+
+.upperFooter p {
+  color: #ebebeb;
+}
+.upperFooter h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.upperFooter li {
+  color: #ebebeb;
+  font-family: "Roboto";
+  font-size: 16x;
+  padding: 2px 0.5em;
+  margin-top: 2.5px;
+}
+
+.bottomFooter p {
+  text-align: center;
+  color: #ebebeb;
+}

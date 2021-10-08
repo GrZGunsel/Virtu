@@ -1,0 +1,35 @@
+.contact {
+  display: flex;
+  height: 60vh !important;
+  justify-content: center;
+}
+.contact-body {
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 1rem;
+}
+
+.contact-body h3 {
+  color: #497dff;
+  font-weight: 600;
+}
+
+.contact-body h1 {
+  font-size: 82px;
+  color: #040e56;
+}
+
+.contact-body button {
+  padding: 8px 20px;
+  background-color: #497dff;
+  color: white;
+  font-size: 17px;
+}
+
+.contact-body button:hover {
+  background-color: #040e56;
+}
