@@ -3,7 +3,7 @@
     height: 100% !important;
   }
   p {
-    font-size: 11px;
+    font-size: 11px !important;
   }
   h1 {
     font-size: 24px !important;
@@ -79,21 +79,7 @@
   .maincontent .left-container .search button {
     flex: none;
   }
-  .About .about-detail .right-container h5 {
-    font-size: 14px;
-  }
-  .About .about-detail .right-container h3 {
-    font-size: 24px;
-  }
-  .service-body .left-container h3 {
-    font-size: 14px;
-  }
-  .service-body .left-container h1 {
-    font-size: 24px;
-  }
-  .service-body .left-container p {
-    font-size: 11px;
-  }
+
   .service-body .left-container .service-tab ul {
     display: flex;
     flex-direction: column;
@@ -103,21 +89,13 @@
     flex-direction: column;
   }
   .service-body .right-container .ServiceCard {
-    height: 200px;
+    height: 160px;
   }
 
-  .service-body .right-container .ServiceCard p {
-    font-size: 11px;
-  }
   .service-body .right-container .services > div:nth-child(2) {
     margin: 0;
   }
-  .vision-body .right-container h3 {
-    font-size: 14px;
-  }
-  .vision-body .right-container h1 {
-    font-size: 24p;
-  }
+
   .vision-body .right-container .vision-lists .visionlist svg {
     height: 30px;
   }
