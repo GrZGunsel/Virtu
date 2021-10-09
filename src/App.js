@@ -8,7 +8,7 @@ import Home from "./Component/Home/Home";
 import Service from "./Component/Home/Service/Service";
 import VisionPage from "./Component/Home/Vision/VisionPage";
 import Whyus from "./Component/Home/Whyus/Whyus";
-
+import "./Mediaquery.scss";
 function App() {
   return (
     <div className="App">

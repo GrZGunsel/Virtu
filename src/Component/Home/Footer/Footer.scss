@@ -10,17 +10,13 @@
   height: 100%;
 }
 .upperFooter {
-  display: flex;
-  align-items: center;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
   color: white;
 }
 
 .upperFooter img {
   margin-bottom: 20px;
-}
-.upperFooter > div {
-  flex: 1;
 }
 
 .upperFooter p {

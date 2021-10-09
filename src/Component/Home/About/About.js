@@ -12,8 +12,8 @@ const About = () => {
             />
           </div>
           <div className="right-container">
-            <h5>Welcome to Virtu company</h5>
-            <h3>The best tech company</h3>
+            <h3>Welcome to Virtu company</h3>
+            <h1>The best tech company</h1>
             <p>
               Phasellus odio dolor, tincidunt sed rutrum at, condimentum ac
               ipsum. Nullam congue pretium nisl. Curabitur at sem et leo dictum

@@ -1,0 +1,138 @@
+@media All and (max-width: 600px) {
+  .App > div {
+    height: 100% !important;
+  }
+  p {
+    font-size: 11px;
+  }
+  h1 {
+    font-size: 24px !important;
+  }
+  h3 {
+    font-size: 14px !important;
+  }
+  h5 {
+    font-size: 13px !important;
+  }
+  .maincontent .left-container h5 {
+    font-size: 14px;
+  }
+  .maincontent .left-container h1 {
+    font-size: 32px;
+  }
+
+  .navlinks {
+    display: none;
+  }
+  .about-detail {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    width: 100vw !important;
+    height: 100% !important;
+  }
+  .maincontent {
+    display: flex;
+    flex-direction: column;
+  }
+  .maincontent > div:nth-child(2) {
+    display: none;
+  }
+  .service-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .vision-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .client {
+    height: 100% !important;
+  }
+  .client-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .client-body > div {
+    margin-top: 0;
+  }
+  .whyus-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .feeback-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .vision-lists {
+    grid-template-columns: 1fr !important;
+  }
+  .maincontent .left-container .search {
+    gap: 20px;
+  }
+  .maincontent .left-container .search button {
+    flex: none;
+  }
+  .About .about-detail .right-container h5 {
+    font-size: 14px;
+  }
+  .About .about-detail .right-container h3 {
+    font-size: 24px;
+  }
+  .service-body .left-container h3 {
+    font-size: 14px;
+  }
+  .service-body .left-container h1 {
+    font-size: 24px;
+  }
+  .service-body .left-container p {
+    font-size: 11px;
+  }
+  .service-body .left-container .service-tab ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-body .right-container .services {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-body .right-container .ServiceCard p {
+    font-size: 11px;
+  }
+  .vision-body .right-container h3 {
+    font-size: 14px;
+  }
+  .vision-body .right-container h1 {
+    font-size: 24p;
+  }
+  .vision-body .right-container .vision-lists .visionlist svg {
+    height: 30px;
+  }
+  .vision-body .right-container .vision-lists .visionlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vision-body .right-container .vision-lists .visionlist h5 {
+    text-align: center;
+  }
+  .slick-slide img {
+    height: 30px;
+  }
+  .client-body .right-container .btn {
+    width: 50%;
+  }
+  .upperFooter li {
+    font-size: 11px;
+  }
+  .upperFooter > div {
+    margin-bottom: 30px;
+  }
+  .upperFooter h3 {
+    margin-bottom: 10px;
+  }
+  .bottomFooter {
+    padding: 4%;
+  }
+}

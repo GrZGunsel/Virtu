@@ -18,7 +18,7 @@
 }
 
 .App .container {
-  width: 1140px;
+  max-width: 1140px;
 }
 .App > div:nth-child(odd) {
   height: 80vh;
