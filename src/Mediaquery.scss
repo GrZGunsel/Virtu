@@ -1,7 +1,4 @@
 @media All and (max-width: 600px) {
-  .App > div {
-    height: 100% !important;
-  }
   p {
     font-size: 11px !important;
   }
@@ -21,17 +18,6 @@
     font-size: 32px;
   }
 
-  .navlinks {
-    display: none;
-  }
-  .about-detail {
-    display: flex;
-    flex-direction: column;
-  }
-  .container {
-    width: 100vw !important;
-    height: 100% !important;
-  }
   .navbar .logo img {
     height: 50px;
   }
@@ -41,37 +27,13 @@
     height: 30vh;
     margin: 4rem 0;
   }
-  .maincontent > div:nth-child(2) {
-    display: none;
-  }
-  .service-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .vision-body {
-    display: flex;
-    flex-direction: column;
-  }
+
   .client {
     height: 100% !important;
   }
-  .client-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .client-body > div {
-    margin-top: 0;
-  }
-  .whyus-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .feeback-body {
-    display: flex;
-    flex-direction: column;
-  }
+
   .vision-lists {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
   }
   .maincontent .left-container .search {
     gap: 20px;
@@ -80,30 +42,14 @@
     flex: none;
   }
 
-  .service-body .left-container .service-tab ul {
-    display: flex;
-    flex-direction: column;
-  }
-  .service-body .right-container .services {
-    display: flex;
-    flex-direction: column;
-  }
   .service-body .right-container .ServiceCard {
     height: 160px;
-  }
-
-  .service-body .right-container .services > div:nth-child(2) {
-    margin: 0;
   }
 
   .vision-body .right-container .vision-lists .visionlist svg {
     height: 30px;
   }
-  .vision-body .right-container .vision-lists .visionlist {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+
   .vision-body .right-container .vision-lists .visionlist h5 {
     text-align: center;
   }
@@ -119,6 +65,65 @@
   .upperFooter li {
     font-size: 11px;
   }
+  .upperFooter {
+    grid-template-columns: 1fr;
+  }
+}
+@media All and (max-width: 1024px) {
+  .navlinks {
+    display: none;
+  }
+  .container {
+    width: 100vw !important;
+    height: 100% !important;
+  }
+  .about-detail {
+    display: flex;
+    flex-direction: column;
+  }
+  .App > div {
+    height: 100% !important;
+  }
+  .maincontent > div:nth-child(2) {
+    display: none;
+  }
+  .service-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .vision-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .client-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .feeback-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .vision-body .right-container .vision-lists .visionlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-body .left-container .service-tab ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-body .right-container .services {
+    display: flex;
+    flex-direction: column;
+  }
+  .whyus-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .client-body > div {
+    margin-top: 0;
+  }
+
   .upperFooter > div {
     margin-bottom: 30px;
   }
@@ -127,5 +132,11 @@
   }
   .bottomFooter {
     padding: 4%;
+  }
+  .upperFooter {
+    grid-template-columns: 1fr 1fr;
+  }
+  .service-body .right-container .services > div:nth-child(2) {
+    margin: 0;
   }
 }
