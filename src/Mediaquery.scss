@@ -35,6 +35,7 @@
   .maincontent {
     display: flex;
     flex-direction: column;
+    height: 30vh;
   }
   .maincontent > div:nth-child(2) {
     display: none;
@@ -97,8 +98,15 @@
     display: flex;
     flex-direction: column;
   }
+  .service-body .right-container .ServiceCard {
+    height: 200px;
+  }
+
   .service-body .right-container .ServiceCard p {
     font-size: 11px;
+  }
+  .service-body .right-container .services > div:nth-child(2) {
+    margin: 0;
   }
   .vision-body .right-container h3 {
     font-size: 14px;
@@ -116,6 +124,9 @@
   }
   .vision-body .right-container .vision-lists .visionlist h5 {
     text-align: center;
+  }
+  .vision-body .right-container .vision-lists .visionlist {
+    gap: 10px;
   }
   .slick-slide img {
     height: 30px;
