@@ -66,7 +66,7 @@
     font-size: 11px;
   }
   .upperFooter {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
 }
 @media All and (max-width: 1024px) {
